@@ -14,29 +14,36 @@ h1 {
     rgba(98,103,103,0.8589635683374912) 92%, rgba(240,248,250,1) 100%); 
     width: 300px;
     height: 500px;
-    border: 1px solid gray;
+    border: 3px gray;
     border-radius: 5%;
 }
 
 .calculadora td button{
-    width: 70px;
-    height: 70px;
+    margin-left: 7px;
+    width: 60px;
+    height: 60px;
     font-size: 18px;color:white;
     background-color: gray;
     border-radius: 20%;
     cursor: pointer;
 }
 
+#siete,#ocho,#nueve,#division {
+    margin-top: 60px;
+}
+
 #resultado {
+    margin-top: 20px;
+    margin-left: 7px;
     display: block;
     text-align: center;
     font-size: 50px;
     color:cornflowerblue;
-    width: 290px;
-    height: 100px;
-    line-height: 120px;
+    width: 270px;
+    height: 80px;
+    line-height: 90px;
     background-color:gainsboro;
-    border: 1px solid gray;
+    border: 7px solid gray;
     border-radius: 25%;
     overflow: hidden;
 }
