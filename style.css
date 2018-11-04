@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;color: red; 
+    text-align: center;
+}
+
+.calculadora {
+    display: block;
+    margin:  auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%,
+    rgba(11,11,11,1) 28%, rgba(11,11,11,1) 55%, 
+    rgba(98,103,103,0.8589635683374912) 92%, rgba(240,248,250,1) 100%); 
+    width: 300px;
+    height: 500px;
+    border: 1px solid gray;
+    border-radius: 5%;
+}
+
+.calculadora td button{
+    width: 70px;
+    height: 70px;
+    font-size: 18px;color:white;
+    background-color: gray;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+#resultado {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color:cornflowerblue;
+    width: 290px;
+    height: 100px;
+    line-height: 120px;
+    background-color:gainsboro;
+    border: 1px solid gray;
+    border-radius: 25%;
+    overflow: hidden;
+}
+body {
+    background-image: url(/img/background_calculator.jpg) 
+}
